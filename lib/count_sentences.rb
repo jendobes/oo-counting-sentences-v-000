@@ -27,6 +27,6 @@ end
   end
 
   def count_sentences
-
+    self.split(".", "?", "!").compact.count
   end
 end
