@@ -27,6 +27,6 @@ end
   end
 
   def count_sentences
-    self.split(/\.|\?|\!/).compact.size
+    self.split(/\.|\?|\!/).delete_if{|string| string == ""}.size
   end
 end
