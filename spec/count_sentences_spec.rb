@@ -52,4 +52,4 @@ describe String do
 end
 
 
-"This, well, is a sentence. This is too!! And so is this, I think? Woo...".split(/\.|\?|\!/).delete_if{|string| string == ""}
+"This, well, is a sentence. This is too!! And so is this, I think? Woo...".split(/\.|\?|\!/).delete_if{|string| string == ""}.size
