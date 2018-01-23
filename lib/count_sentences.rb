@@ -30,5 +30,3 @@ end
     self.split(/\.|\?|\!/).compact.size
   end
 end
-
-binding.pry
