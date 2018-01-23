@@ -30,3 +30,5 @@ end
     self.split(".", "?").compact.count
   end
 end
+
+binding.pry
